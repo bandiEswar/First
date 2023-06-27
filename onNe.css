@@ -1,0 +1,19 @@
+.navication #li1{
+    background-color: yellow;
+    border: 1px solid red;
+    margin:50px;
+    padding:20px 10px 30px 15px;
+}
+a{
+    display: block;
+}
+table,tr,td,th{
+    border: 2px Solid;
+    border-collapse:collapse;
+}
+tr:nth-child(even){
+    background-color: rgba(57, 231, 66, 0.514);
+}
+tr:nth-child(odd){
+    background-color: rgba(112, 230, 52, 0.23);
+}
