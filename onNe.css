@@ -1,19 +1,33 @@
-.navication #li1{
-    background-color: yellow;
-    border: 1px solid red;
-    margin:50px;
-    padding:20px 10px 30px 15px;
+h1{
+    color: cadetblue;
 }
-a{
-    display: block;
-}
-table,tr,td,th{
-    border: 2px Solid;
-    border-collapse:collapse;
-}
-tr:nth-child(even){
-    background-color: rgba(57, 231, 66, 0.514);
-}
-tr:nth-child(odd){
-    background-color: rgba(112, 230, 52, 0.23);
-}
+body {
+    background: #d60000;
+    
+  }
+  .chessboard {
+    text-align: center;
+      width: 640px;
+      height: 640px;
+      margin: 0px auto;
+      vertical-align: center;
+  
+  }
+  .black {
+      float: left;
+      width: 80px;
+      height: 80px;
+      background-color:black;
+      text-align:center;
+      display: table-cell;
+      vertical-align:middle;
+  }
+  .white {
+      float: left;
+      width: 80px;
+      height: 80px;
+      background-color: beige;
+      text-align:center;
+      display: table-cell;
+      vertical-align:middle;
+  }
